@@ -1,6 +1,7 @@
 {
   "name": "@ventureiq/recoil",
-  "private": true,
+  "private": false,
+  "version": "1.0.0",
   "description": "Recoil - A state management library for React",
   "main": "cjs/index.js",
   "module": "es/index.js",
@@ -13,10 +14,9 @@
     "native",
     "index.d.ts"
   ],
-  "repository": "https://github.com/facebookexperimental/Recoil.git",
+  "repository": "https://github.com/ventureiq/Recoil.git",
   "license": "MIT",
   "scripts": {
-    "prepare": "install-peers",
     "build": "node scripts/build.mjs",
     "pack": "node scripts/pack.mjs",
     "test": "yarn relay && jest packages/*",
