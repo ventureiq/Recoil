@@ -1,5 +1,5 @@
 {
-  "name": "recoil",
+  "name": "@ventureiq/recoil",
   "private": true,
   "description": "Recoil - A state management library for React",
   "main": "cjs/index.js",
